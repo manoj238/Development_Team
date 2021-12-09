@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+            var employee = {
+                firstName: 'kiran',
+                lastName: 'kumar',
+                eId:12,
+                getFullName: function(){
+                    return this.firstName+' '+this.lastName
+                }
+            }
+            console.log(employee.getFullName())
+            var employee1 = {
+                "first Name": 'manoj',
+                lastName: 'vivek',
+                eId:15,
+                getFullName: function(){
+                    return this["first Name"]+' '+this.lastName
+                }
+            }
+            console.log(employee1.getFullName());
+            employee1.eId=18
+            console.log(employee1.eId)
+        </script>
+    </body>
+</html>
